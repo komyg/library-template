@@ -1,4 +1,4 @@
-# Lib Template
+# Library Template
 
 This is a library starter template.
 

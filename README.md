@@ -1,27 +1,8 @@
-# Lord of the Rings SDK
+# Typescript Library Template
 
-This is a Monorepo that contains the One API SDK and an acompanying test project.
+This is a monorepo that contains starter code to build a typescript library.
 
-- [One API SDK](https://github.com/hatchways-community/ec52e4978f1447628c1a0547c1ff9e16/tree/dev/packages/komyg-one-api-sdk)
-- [Runner](https://github.com/hatchways-community/ec52e4978f1447628c1a0547c1ff9e16/tree/dev/packages/runner)
+## Packages
 
-## Getting Started
-
-Please follow these steps:
-
-- Run `npm install` to download and install all dependencies.
-- Run `npm run build -w komyg-one-api-sdk` to build the SDK.
-
-## Running
-
-Execute `npm start -w runner` to run the test code.
-
-> Note: you must build the SDK prior to running this command.
-
-## Testing
-
-Execute `npm run test -w komyg-one-api-sdk` to run the tests.
-
-## Publishng
-
-Execute `npm publish -w komyg-one-api-sdk` to publish the SDK to NPM.
+- [Library](./packages/lib/README.md): contains the code for the library.
+- [Test Runner](./packages/runner/README.md): a test runner to import and test the library code.
